@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif ;
+}
+h1 {
+    color: #66bfbf;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.625em;
+    margin: 50px auto 0;
+    
+
+
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    background-color: papayawhip;
+       
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat',sans-serif;
+    
+    
+}
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0% {background-color: rgb(67, 9, 224);}
+    25% {background-color: #eed919;}
+    50% {background-color: #15a3e6;}
+    100% {background-color: #82f0f0}
+}
+
+.top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+
+}
+.pic {
+    border-radius: 30%;
+    height: 200px;
+    
+    
+}
+
+.pic1 {
+    border-radius: 20%;
+    float: left;
+    height: 150px;
+    
+
+    
+    
+}
+.pic2 {
+    border-radius: 20%;
+    float: right;
+    height: 150px;
+    
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    text-align: inline-start;
+}
+.skill-row1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.middle-container .skills .skill-row .pic1 {
+    margin-right: 30px;
+    
+
+
+}
+.middle-container .skills .skill-row1 .pic2 {
+    margin-left: 30px;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 5%;
+    color: gray;
+    
+    
+}
+
+ .btn {
+    text-decoration: none;
+    color: #e4f9f5;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-image: linear-gradient(#82f0f0, #158e92);
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    
+    
+ }
+
+.idol {
+    color: white;
+    transition: .2s;
+    animation-name: 4s;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 0.6;
+    padding: 30px 20px;
+    display: inline-block;
+    color: #158e92
+    
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    animation-name: example;
+    animation-duration: 10s;
+}
+ .btn:hover {opacity: 1;}
+ .footer-link:hover {opacity: 1;}
+ .btn:active {
+    
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+ }
+ .footer-link:active {
+
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+ }
